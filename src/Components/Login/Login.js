@@ -3,8 +3,11 @@ import './Login.css'
 
 import { auth } from '../../firebase';
 import { useHistory } from 'react-router-dom';
+import { useStateValue } from '../../StateProvider';
+
 
 const Login = () => {
+    const [{ basket }, dispatch] = useStateValue();
 
     const history = useHistory();
     const [email, setEmail] = useState('');
@@ -18,6 +21,10 @@ const Login = () => {
             .then(auth => {
                 console.log(auth)
                 history.push('/buyorsell')
+                dispatch({
+                    type: 'SET_USER',
+                    user: auth.email
+                })
             })
             .catch(err => alert(err.message))
     }
