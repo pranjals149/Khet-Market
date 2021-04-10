@@ -10,7 +10,8 @@ import { useEffect } from 'react';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
 import BuyorSell from './Components/BuyorSell/BuyorSell'
-
+import Header from './Components/Header/Header'
+import Buy from './Components/Buy/Buy'
 
 function App() {
 
@@ -51,6 +52,11 @@ function App() {
                   <BuyorSell />
                 </Route>
 
+                <Route exact path="/buy">
+                  <Header />
+                  <Buy />
+                </Route>
+
               </>
             ) : (
               <>
@@ -60,6 +66,11 @@ function App() {
 
                 <Route exact path="/register">
                   <Register />
+                </Route>
+
+                <Route exact path="/buy">
+                  <Header />
+                  <Buy />
                 </Route>
               </>
             )
