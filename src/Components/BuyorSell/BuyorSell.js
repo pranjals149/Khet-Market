@@ -21,7 +21,7 @@ const BuyorSell = () => {
         <div className='buyorsell'>
 
             <div className="buyorsell__heading">
-                <h1 className='buyorsell__h1'>Welcome to <strong>Khet Market</strong></h1>
+                <h1 className='buyorsell__h1'>Welcome to <strong>KisaanVend</strong></h1>
             </div>
 
 
