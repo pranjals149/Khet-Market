@@ -12,6 +12,7 @@ import { useStateValue } from './StateProvider';
 import BuyorSell from './Components/BuyorSell/BuyorSell'
 import Header from './Components/Header/Header'
 import Buy from './Components/Buy/Buy'
+import Checkout from './Components/Checkout/Checkout'
 
 function App() {
 
@@ -55,6 +56,11 @@ function App() {
                 <Route exact path="/buy">
                   <Header />
                   <Buy />
+                </Route>
+
+                <Route exact path="/checkout">
+                  <Header />
+                  <Checkout />
                 </Route>
 
               </>
