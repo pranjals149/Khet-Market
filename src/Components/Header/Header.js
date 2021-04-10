@@ -1,18 +1,20 @@
 import React from 'react'
 import './Header.css'
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 import { auth } from '../../firebase';
 
 const Header = () => {
 
     const [{ basket, user }, dispatch] = useStateValue();
+    const history = useHistory();
 
     const handleAuthentication = () => {
         if (user) {
             auth.signOut();
         }
+        history.push('/login')
     }
 
     return (

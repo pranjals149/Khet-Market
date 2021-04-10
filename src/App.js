@@ -13,6 +13,13 @@ import BuyorSell from './Components/BuyorSell/BuyorSell'
 import Header from './Components/Header/Header'
 import Buy from './Components/Buy/Buy'
 import Checkout from './Components/Checkout/Checkout'
+import Payment from './Components/Payment/Payment'
+import Orders from './Components/Orders/Orders'
+
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements } from '@stripe/react-stripe-js';
+
+const promise = loadStripe("pk_test_51HlsqsEJTBWipWhA6UIua1R9qKRQREaPlfN3LAXzfGVgQsUS0ih6E88edf3Fwd1uvAouB6KI7W1shuN5bg8xDedO00jTJMiHMh");
 
 function App() {
 
@@ -61,6 +68,17 @@ function App() {
                 <Route exact path="/checkout">
                   <Header />
                   <Checkout />
+                </Route>
+
+                <Route exact path="/payment">
+                  <Elements stripe={promise}>
+                    <Payment />
+                  </Elements>
+                </Route>
+
+                <Route exact path="/orders">
+                  <Header />
+                  <Orders />
                 </Route>
 
               </>
