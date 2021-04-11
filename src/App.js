@@ -1,11 +1,7 @@
 import './App.css';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect } from 'react';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
@@ -15,6 +11,8 @@ import Buy from './Components/Buy/Buy'
 import Checkout from './Components/Checkout/Checkout'
 import Payment from './Components/Payment/Payment'
 import Orders from './Components/Orders/Orders'
+import Sell from './Components/Sell/Sell'
+import SellingItem from './Components/SellingItem/SellingItem'
 
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
@@ -79,6 +77,14 @@ function App() {
                 <Route exact path="/orders">
                   <Header />
                   <Orders />
+                </Route>
+
+                <Route exact path="/sell">
+                  <Sell />
+                </Route>
+
+                <Route exact path="/sellingItem">
+                  <SellingItem />
                 </Route>
 
               </>

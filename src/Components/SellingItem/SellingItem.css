@@ -1,0 +1,17 @@
+.sellingItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sellingItem__button {
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sellingItem__post {
+    display: flex;
+}
