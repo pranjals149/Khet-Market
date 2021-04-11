@@ -66,5 +66,9 @@ These are the main pages of our web app along with the description.
 7. Now, open **firebase.js** file inside **src**, and paste the content of **FirebaseConfig**(copied from firebase console) in place where previous FirebaseConfig was declared.
 8. Now, back to the main project directory, start the react development server - ```npm start```
 9. Now the application is Up and running on PORT NO. - **3000**
+
+### Video Link
+
+https://youtu.be/XWkjdd1eNWI
  
 
