@@ -28,6 +28,10 @@ These are the main pages of our web app along with the description.
 
 8. **Orders** - This page helps the user to review their purchased items along with their unique order ids, address, and costs.
 
+9. **Sell** - Here we have enforced the farmer to sell his/her crops above Minimum Support Price(MSP). Through the use of MSP, we are making farmers aware of the true market value for their goods and help them in creating a stronger negotiating position for themselves.
+
+10. **Selling Item** - This page helps the user review their sold crops along with their addresses, type of the crop,and price asked for it.
+
 ### Pre-requisites required to run the application
 
 1. **NodeJs**
