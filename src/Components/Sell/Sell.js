@@ -26,8 +26,6 @@ const Sell = () => {
     const [contact, setContact] = React.useState(null);
     const [mspText, setMspText] = React.useState("")
     const [file, setFile] = React.useState(null)
-    // const [imageAsFile, setImageAsFile] = React.useState('')
-
 
     const msp = (e) => {
         setPrice(e.target.value)

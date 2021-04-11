@@ -13,6 +13,7 @@ import Payment from './Components/Payment/Payment'
 import Orders from './Components/Orders/Orders'
 import Sell from './Components/Sell/Sell'
 import SellingItem from './Components/SellingItem/SellingItem'
+import Home from './Components/Home/Home';
 
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
@@ -46,6 +47,11 @@ function App() {
           {
             (user) ? (
               <>
+
+                <Route exact path="/">
+                  <Home />
+                </Route>
+
                 <Route exact path="/login">
                   <Login />
                 </Route>
@@ -90,6 +96,11 @@ function App() {
               </>
             ) : (
               <>
+
+                <Route exact path="/">
+                  <Home />
+                </Route>
+
                 <Route exact path="/login">
                   <Login />
                 </Route>
