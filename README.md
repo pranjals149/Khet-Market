@@ -1,9 +1,5 @@
 <h1 align='center'>Khet Market</h1>
 
-##### Team Name: CSF_PROS
-
-##### Track:OPEN INNOVATION
-
 <p align='center'><img src='https://image.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg' /></p>
 
 **Khet Market** is a web-app through which farmers can sell crops to and buy equipment directly from other merchants without any third-party mediation.To avoid price inflation and maintain regularized selling, the app validates any purchase through the use of MSP for pricing and the buyer must adhere to it.The app also incorporates image integration for crops so the buyer can decide whether to proceed with the transaction.The app also incorporate payment authentication which help both parties avoid extra middleman costs and helps in creating of a completely self – independent virtual market space to empower both the buyer and seller.
