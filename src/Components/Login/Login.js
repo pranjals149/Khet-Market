@@ -41,7 +41,7 @@ const Login = () => {
                     <h2 className="active"> Sign In </h2>
 
                     <div className="fadeIn first">
-                        <img src="https://image.freepik.com/free-vector/organic-farming-with-man-field_23-2148426805.jpg" id="icon" alt="User Icon" />
+                        <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png" id="icon" alt="User Icon" />
                     </div>
 
                     <form>

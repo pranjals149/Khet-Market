@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <div className='header'>
             <Link to='/'>
-                <img className='header__logo' src='https://image.freepik.com/free-photo/top-view-fresh-vegetables-composition-dark-desk_140725-76655.jpg' alt='' />
+                <img className='header__logo' src='https://raw.githubusercontent.com/pranjals149/acevent/75eed4a1a0a65bdde48eddf5e5c061fca26b3934/expend/expend.svg' alt='' />
             </Link>
 
 

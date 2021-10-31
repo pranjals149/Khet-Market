@@ -145,7 +145,7 @@ const Sell = () => {
 
             <form className='sell__form' onSubmit={addUser}>
 
-                <img className='sell__formImage' src="https://image.freepik.com/free-vector/bright-sale-presentation-slide-template_1262-19198.jpg" alt="" />
+                <img className='sell__formImage' src="https://cdn.pixabay.com/photo/2017/01/26/16/51/supermarket-2011060_960_720.png" alt="" />
 
                 <div className="sell__crop">
                     <p className='sell__cropP'>Available Crops: </p>

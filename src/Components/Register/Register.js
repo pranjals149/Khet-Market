@@ -68,7 +68,7 @@ const Register = () => {
                     <h2 class="active"> Sign Up </h2>
 
                     <div class="fadeIn first">
-                        <img src="https://image.freepik.com/free-vector/happy-female-farmer-working-farm-feed-population-flat-vector-illustration-cartoon-farm-with-automation-technology_74855-8400.jpg" id="icon" alt="User Icon" />
+                        <img src="https://cdn.pixabay.com/photo/2017/01/26/16/51/supermarket-2011060_960_720.png" id="icon" alt="User Icon" />
                     </div>
 
                     <form>
