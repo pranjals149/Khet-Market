@@ -26,6 +26,10 @@ These are the main pages of our web app along with the description.
 
 8. **Orders** - This page helps the user to review their purchased items along with their unique order ids, address, and costs.
 
+9. **Sell** - Here we have enforced the farmer to sell his/her crops above Minimum Support Price(MSP). Through the use of MSP, we are making farmers aware of the true market value for their goods and help them in creating a stronger negotiating position for themselves.
+
+10. **Selling Item** - This page helps the user review their sold crops along with their addresses, type of the crop,and price asked for it.
+
 ### Pre-requisites required to run the application
 
 1. **NodeJs**
@@ -56,5 +60,9 @@ These are the main pages of our web app along with the description.
 7. Now, open **firebase.js** file inside **src**, and paste the content of **FirebaseConfig**(copied from firebase console) in place where previous FirebaseConfig was declared.
 8. Now, back to the main project directory, start the react development server - ```npm start```
 9. Now the application is Up and running on PORT NO. - **3000**
+
+### Video Link
+
+https://youtu.be/XWkjdd1eNWI
  
 
